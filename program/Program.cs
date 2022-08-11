@@ -18,8 +18,11 @@ while(i < numbers.Length)
         maxIndex = i;
     }
 
-    i++
-}  
+    i++;
+}
+
+Console.WriteLine("Максимальный индекс = " + maxIndex);
+
 void printArray(int[] array)
 {
     for(int i = 0; i< array.Length; i++)
