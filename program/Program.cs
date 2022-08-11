@@ -18,10 +18,17 @@ while(i < numbers.Length)
         maxIndex = i;
     }
 
+    if (min > numbers[i])
+    {
+        min = numbers[i];
+        minIndex = i;
+    }
+
     i++;
 }
 
 Console.WriteLine("Максимальный индекс = " + maxIndex);
+Console.WriteLine("Минимальный индекс = " + minIndex);
 
 void printArray(int[] array)
 {
